@@ -217,3 +217,58 @@ body {
         margin-bottom: 0;
       }
       
+
+    /*Projects section*/
+
+
+      .projects .icon-box {
+        margin-bottom: 20px;
+      }
+      
+      .projects .icon {
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 54px;
+        height: 54px;
+        background: #149ddd;
+        border-radius: 50%;
+        transition: 0.5s;
+        border: 1px solid #149ddd;
+      }
+      
+      .projects .icon i {
+        color: #fff;
+        font-size: 24px;
+      }
+      
+      .projects .icon-box:hover .icon {
+        background: #fff;
+      }
+      
+      .projects .icon-box:hover .icon i {
+        color: #149ddd;
+      }
+      
+      .projects .title {
+        margin-left: 80px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+      
+      .projects .title a {
+        color: #343a40;
+      }
+      
+      .projects .title a:hover {
+        color: #149ddd;
+      }
+      
+      .projects .description {
+        margin-left: 80px;
+        line-height: 24px;
+        font-size: 14px;
+      }
+      
