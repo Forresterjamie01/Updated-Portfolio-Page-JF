@@ -97,7 +97,7 @@ body {
       margin-left: 0;
     }
   }
-  /*Opening Background section*/
+  /*Opening Background of City section*/
 
   #hero {
     width: 100%;
@@ -128,22 +128,9 @@ body {
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: #fff;
+    color: rgb(166, 197, 185);
   }
-  
-  #hero p {
-    color: #fff;
-    margin-bottom: 50px;
-    font-size: 26px;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  #hero p span {
-    color: #fff;
-    padding-bottom: 4px;
-    letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
-  }
+
   
   @media (min-width: 1024px) {
     #hero {
@@ -162,3 +149,71 @@ body {
       margin-bottom: 30px;
     }
   }
+
+    /*Skills section*/
+
+    section {
+        padding: 60px 0;
+        overflow: hidden;
+      }
+      
+      .section-bg {
+        background: #ffffff;
+      }
+      
+      .section-title {
+        padding-bottom: 30px;
+      }
+      
+      .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        color: #06311c;
+      }
+      
+      .section-title h2::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        background: #09963f;
+        bottom: 0;
+        left: 0;
+      }
+      
+      .section-title p {
+        margin-bottom: 0;
+      }
+    
+    /*About Me section*/
+
+
+      .about .content h3 {
+        font-weight: 700;
+        font-size: 26px;
+        color: #0d502b;
+      }
+      
+      .about .content ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .about .content ul li {
+        padding-bottom: 10px;
+      }
+      
+      .about .content ul i {
+        font-size: 20px;
+        padding-right: 2px;
+        color: #278a4d;
+      }
+      
+      .about .content p:last-child {
+        margin-bottom: 0;
+      }
+      
