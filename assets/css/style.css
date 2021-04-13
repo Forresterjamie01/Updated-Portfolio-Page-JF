@@ -67,8 +67,8 @@ body {
   #header .profile .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #212431;
-    color: #fff;
+    background: #65af78;
+    color: #65af78;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -80,8 +80,8 @@ body {
   }
   
   #header .profile .social-links a:hover {
-    background: #149ddd;
-    color: #fff;
+    background: #65af78;
+    color: #65af78;
     text-decoration: none;
   }
   
@@ -232,10 +232,10 @@ body {
         justify-content: center;
         width: 54px;
         height: 54px;
-        background: #149ddd;
+        background: #65af78;
         border-radius: 50%;
         transition: 0.5s;
-        border: 1px solid #149ddd;
+        border: 1px solid #65af78;
       }
       
       .projects .icon i {
@@ -248,7 +248,7 @@ body {
       }
       
       .projects .icon-box:hover .icon i {
-        color: #149ddd;
+        color: #65af78;
       }
       
       .projects .title {
@@ -263,12 +263,14 @@ body {
       }
       
       .projects .title a:hover {
-        color: #149ddd;
+        color: #65af78;
       }
       
       .projects .description {
         margin-left: 80px;
         line-height: 24px;
         font-size: 14px;
+        color: #000000;
       }
+      
       
